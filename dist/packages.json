@@ -28,7 +28,7 @@
           "version": "1.0.0",
           "status": "stable",
           "kicad_version": "8.0",
-          "download_sha256": "2dd955c781c57e21b8dc2f1c1f7b3c70077de6e437ca69d382b817706deaefc7",
+          "download_sha256": "70be5f40d0490ca4705947b5c245f2140ec0822301d42dd02f3e21fb5dba221c",
           "download_url": "https://github.com/degesz/test_lib/releases/download/v1.0.0/com.github.degesz.test-lib_v1.0.0_pcm.zip",
           "download_size": 655,
           "install_size": 77

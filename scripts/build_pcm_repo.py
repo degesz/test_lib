@@ -110,8 +110,15 @@ def main() -> None:
     packages_path.write_text(json.dumps(packages_json, indent=2) + "\n", encoding="utf-8")
 
     resources_path = dist_dir / "resources.zip"
-    with ZipFile(resources_path, "w", compression=ZIP_DEFLATED):
-        pass
+    # KiCad PCM expects a valid, seekable ZIP; keep at least one file inside.
+    with ZipFile(resources_path, "w", compression=ZIP_DEFLATED) as zf:
+        zf.writestr(
+            "README.txt",
+            (
+                "This resources archive is intentionally minimal.\n"
+                "Add icon.png (64x64) and other shared resources here.\n"
+            ),
+        )
 
     now = datetime.now(timezone.utc)
     timestamp = int(now.timestamp())
