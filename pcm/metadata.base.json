@@ -1,0 +1,25 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Test Lib",
+  "description": "Starter KiCad symbol library package.",
+  "description_full": "A starter KiCad library package prepared for the Plugin and Content Manager (PCM).",
+  "identifier": "com.github.degesz.test-lib",
+  "type": "library",
+  "author": {
+    "name": "degesz",
+    "contact": {
+      "web": "https://github.com/degesz"
+    }
+  },
+  "maintainer": {
+    "name": "degesz",
+    "contact": {
+      "web": "https://github.com/degesz"
+    }
+  },
+  "license": "CC0-1.0",
+  "resources": {
+    "homepage": "https://github.com/degesz/test_lib"
+  },
+  "kicad_version": "8.0"
+}

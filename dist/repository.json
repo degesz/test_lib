@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "name": "test_lib PCM repository",
+  "maintainer": {
+    "name": "degesz",
+    "contact": {
+      "web": "https://github.com/degesz"
+    }
+  },
+  "packages": {
+    "url": "https://raw.githubusercontent.com/degesz/test_lib/main/dist/packages.json",
+    "sha256": "0c46250fc2d38f5a75f8d2f23a539e43e2c7214171a148d7cc38a0e78330e87a",
+    "update_time_utc": "2026-02-12 14:12:45",
+    "update_timestamp": 1770905565
+  },
+  "resources": {
+    "url": "https://raw.githubusercontent.com/degesz/test_lib/main/dist/resources.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "update_time_utc": "2026-02-12 14:12:45",
+    "update_timestamp": 1770905565
+  }
+}
