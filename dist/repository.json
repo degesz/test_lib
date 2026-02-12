@@ -9,14 +9,14 @@
   },
   "packages": {
     "url": "https://raw.githubusercontent.com/degesz/test_lib/main/dist/packages.json",
-    "sha256": "5185ae9bd8cbdc2147be991b2eaa35089f019a4ce117929c064d0ca12636ddb4",
-    "update_time_utc": "2026-02-12 14:16:24",
-    "update_timestamp": 1770905784
+    "sha256": "9d214e775f2fb5c067132780e534080fc5fce207bbd64089c29dcc270c3298df",
+    "update_time_utc": "2026-02-12 14:24:00",
+    "update_timestamp": 1770906240
   },
   "resources": {
     "url": "https://raw.githubusercontent.com/degesz/test_lib/main/dist/resources.zip",
-    "sha256": "bdeaf31d7af041cee7e720666c9a971b1a1968e604f5fb9e9b2dbcd7e9d7d048",
-    "update_time_utc": "2026-02-12 14:16:24",
-    "update_timestamp": 1770905784
+    "sha256": "9e7b815a12e43120604b5afc98dc712b4cf5f03b4b22e7ad9cf6f22d0e6d0bd9",
+    "update_time_utc": "2026-02-12 14:24:00",
+    "update_timestamp": 1770906240
   }
 }
